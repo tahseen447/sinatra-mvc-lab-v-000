@@ -15,7 +15,7 @@ class PigLatinizer
       new_word = word.slice(1..length-1)
       new_word += first_letter
       new_word += "ay"
-
+      new_word_array << new_word
     end
   end
 end
