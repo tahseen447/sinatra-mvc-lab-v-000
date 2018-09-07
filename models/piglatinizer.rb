@@ -5,4 +5,7 @@ class PigLatinizer
   def initialize(text)
     @user_text = text
   end
+
+  def latinize
+  end
 end
