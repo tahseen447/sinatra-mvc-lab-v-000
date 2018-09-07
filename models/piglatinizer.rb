@@ -18,5 +18,6 @@ class PigLatinizer
       new_word += "ay"
       new_word_array << new_word
     end
+    new_word_array.join(' ')
   end
 end
