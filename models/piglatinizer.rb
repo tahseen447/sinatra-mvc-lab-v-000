@@ -7,8 +7,11 @@ class PigLatinizer
   end
 
   def latinize
+    new_word_array=[]
     words = text.split(' ')
     words.each do |word|
+      new_word = ''
+
     end
   end
 end
