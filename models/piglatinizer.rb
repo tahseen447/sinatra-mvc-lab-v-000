@@ -1,6 +1,5 @@
 class PigLatinizer
 
-  attr_reader :user_text
 
   def initialize()
   end
