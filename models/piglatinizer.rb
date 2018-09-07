@@ -7,5 +7,6 @@ class PigLatinizer
   end
 
   def latinize
+    words = text.split(' ')
   end
 end
