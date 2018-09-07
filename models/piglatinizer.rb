@@ -4,9 +4,9 @@ class PigLatinizer
   def initialize()
   end
 
-  def latinize
+  def piglatinize(text)
     new_word_array=[]
-    words = @user_text.split(' ')
+    words = text.split(' ')
     words.each do |word|
       length= word.length
       first_letter = word[0]
